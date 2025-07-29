@@ -20,4 +20,11 @@ fun main() {
 
     val json = response?.body()
     println(json)
+
+    val meuJogo = Jogo()
+    meuJogo.titulo = "batman: resto do nome aqui"
+    meuJogo.capa = "https:\\/\\/cdn.cloudflare.steamstatic.com\\/steam\\/apps\\/35140\\/capsule_sm_120.jpg?t=1681938587"
+    meuJogo.descricao = "Jogo fo batman"
+
+    println(meuJogo)
 }
